@@ -30,7 +30,7 @@ There are no dependencies you need to use the Discord Webhook
 
 
 <br>
-g
+
 # Issues / Fixes
 
 If something doesn't work, feel free to open an issue and I'll try to find a fix for it as soon as possible. if you have any other suggestions or requests, please let me know. Otherwise I hope that this page helped you out.
