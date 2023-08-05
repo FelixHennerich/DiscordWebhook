@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class UploadManager {
 
-    private static String webhookURL = "https://discord.com/api/webhooks/936360784391450695/BYl1EWjQ7TyFxaaUaPz3LoH5wpr4aPQ-QHb_1iYAXKg8dUXCSpO86VB0rrL44XcLcAli";
+    private static String webhookURL = "ENTER YOUR DISCORD WEBHOOK HERE";
 
     public void uploadToDatabase(String message, String sender){
         try (PreparedStatement ps = MySQL.getConnection().prepareStatement("INSERT INTO message (Nachricht, Sender) VALUES (?, ?)")) {
